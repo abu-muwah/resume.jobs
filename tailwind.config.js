@@ -8,7 +8,11 @@ module.exports = {
         'xl': '1120px',
       },
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        '10': '10px'
+      }
+    },
   },
   plugins: [],
 }
