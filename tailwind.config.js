@@ -2,18 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    container: { 
-      center: true,
+    container: {
+      center: true, 
       screens: {
-        'xl': '1120px',
+        'xl': '1120px', 
+      }, 
       },
-    },
-    extend: {
-      fontSize: {
-        '8px': '8px',
-        '10': '10px'
-      }
-    },
+    extend: {},
   },
   plugins: [],
 }
